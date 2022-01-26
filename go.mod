@@ -2,7 +2,9 @@ module github.com/rajathagasthya/gomod-retract-experiment
 
 go 1.17
 
-retract v1.4.0-pre-alpha-2
+retract (
+    [v1.4.0-pre-alpha-1, v1.4.0-pre-alpha-2]
+)
 
 require github.com/google/go-cmp v0.5.7
 
